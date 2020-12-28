@@ -3,16 +3,17 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
 		4E8FF1F62599A68800E7CA00 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E8FF1F52599A68800E7CA00 /* AppDelegate.m */; };
-		4E8FF1FC2599A68800E7CA00 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E8FF1FB2599A68800E7CA00 /* ViewController.m */; };
 		4E8FF1FF2599A68800E7CA00 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4E8FF1FD2599A68800E7CA00 /* Main.storyboard */; };
 		4E8FF2012599A68A00E7CA00 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4E8FF2002599A68A00E7CA00 /* Assets.xcassets */; };
 		4E8FF2042599A68A00E7CA00 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4E8FF2022599A68A00E7CA00 /* LaunchScreen.storyboard */; };
 		4E8FF2072599A68A00E7CA00 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E8FF2062599A68A00E7CA00 /* main.m */; };
+		4E8FF2172599ACFF00E7CA00 /* TestDemoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E8FF2162599ACFF00E7CA00 /* TestDemoViewController.m */; };
+		4E8FF2202599AE2300E7CA00 /* AFHTTPRequestOperationManager+Util.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E8FF21F2599AE2300E7CA00 /* AFHTTPRequestOperationManager+Util.m */; };
 		9A792703C9537BAC2E4AB8E5 /* libPods-iOS_Learning_Demo1.a in Frameworks */ = {isa = PBXBuildFile; fileRef = D3F1F037CDA0DDAEA90239A8 /* libPods-iOS_Learning_Demo1.a */; };
 /* End PBXBuildFile section */
 
@@ -20,13 +21,16 @@
 		4E8FF1F12599A68800E7CA00 /* iOS_Learning_Demo1.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iOS_Learning_Demo1.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4E8FF1F42599A68800E7CA00 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		4E8FF1F52599A68800E7CA00 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		4E8FF1FA2599A68800E7CA00 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		4E8FF1FB2599A68800E7CA00 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		4E8FF1FE2599A68800E7CA00 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		4E8FF2002599A68A00E7CA00 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		4E8FF2032599A68A00E7CA00 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		4E8FF2052599A68A00E7CA00 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		4E8FF2062599A68A00E7CA00 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		4E8FF2152599ACFF00E7CA00 /* TestDemoViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TestDemoViewController.h; sourceTree = "<group>"; };
+		4E8FF2162599ACFF00E7CA00 /* TestDemoViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TestDemoViewController.m; sourceTree = "<group>"; };
+		4E8FF21E2599AE2300E7CA00 /* AFHTTPRequestOperationManager+Util.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "AFHTTPRequestOperationManager+Util.h"; sourceTree = "<group>"; };
+		4E8FF21F2599AE2300E7CA00 /* AFHTTPRequestOperationManager+Util.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "AFHTTPRequestOperationManager+Util.m"; sourceTree = "<group>"; };
+		4E8FF2252599AF0700E7CA00 /* Demo_PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Demo_PrefixHeader.pch; sourceTree = "<group>"; };
 		AF8BBF90C949EA0C3BAE0A9A /* Pods-iOS_Learning_Demo1.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iOS_Learning_Demo1.debug.xcconfig"; path = "Target Support Files/Pods-iOS_Learning_Demo1/Pods-iOS_Learning_Demo1.debug.xcconfig"; sourceTree = "<group>"; };
 		D3F1F037CDA0DDAEA90239A8 /* libPods-iOS_Learning_Demo1.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-iOS_Learning_Demo1.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		FBE5265EA0358ACEF230AEC6 /* Pods-iOS_Learning_Demo1.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iOS_Learning_Demo1.release.xcconfig"; path = "Target Support Files/Pods-iOS_Learning_Demo1/Pods-iOS_Learning_Demo1.release.xcconfig"; sourceTree = "<group>"; };
@@ -65,10 +69,11 @@
 		4E8FF1F32599A68800E7CA00 /* iOS_Learning_Demo1 */ = {
 			isa = PBXGroup;
 			children = (
+				4E8FF2232599AEB900E7CA00 /* Network */,
+				4E8FF2222599AE9C00E7CA00 /* Login */,
 				4E8FF1F42599A68800E7CA00 /* AppDelegate.h */,
 				4E8FF1F52599A68800E7CA00 /* AppDelegate.m */,
-				4E8FF1FA2599A68800E7CA00 /* ViewController.h */,
-				4E8FF1FB2599A68800E7CA00 /* ViewController.m */,
+				4E8FF2252599AF0700E7CA00 /* Demo_PrefixHeader.pch */,
 				4E8FF1FD2599A68800E7CA00 /* Main.storyboard */,
 				4E8FF2002599A68A00E7CA00 /* Assets.xcassets */,
 				4E8FF2022599A68A00E7CA00 /* LaunchScreen.storyboard */,
@@ -78,13 +83,30 @@
 			path = iOS_Learning_Demo1;
 			sourceTree = "<group>";
 		};
+		4E8FF2222599AE9C00E7CA00 /* Login */ = {
+			isa = PBXGroup;
+			children = (
+				4E8FF2152599ACFF00E7CA00 /* TestDemoViewController.h */,
+				4E8FF2162599ACFF00E7CA00 /* TestDemoViewController.m */,
+			);
+			path = Login;
+			sourceTree = "<group>";
+		};
+		4E8FF2232599AEB900E7CA00 /* Network */ = {
+			isa = PBXGroup;
+			children = (
+				4E8FF21E2599AE2300E7CA00 /* AFHTTPRequestOperationManager+Util.h */,
+				4E8FF21F2599AE2300E7CA00 /* AFHTTPRequestOperationManager+Util.m */,
+			);
+			path = Network;
+			sourceTree = "<group>";
+		};
 		D2BBDB4799BC76E8C7F098F7 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
 				AF8BBF90C949EA0C3BAE0A9A /* Pods-iOS_Learning_Demo1.debug.xcconfig */,
 				FBE5265EA0358ACEF230AEC6 /* Pods-iOS_Learning_Demo1.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -227,9 +249,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4E8FF1FC2599A68800E7CA00 /* ViewController.m in Sources */,
+				4E8FF2202599AE2300E7CA00 /* AFHTTPRequestOperationManager+Util.m in Sources */,
 				4E8FF1F62599A68800E7CA00 /* AppDelegate.m in Sources */,
 				4E8FF2072599A68A00E7CA00 /* main.m in Sources */,
+				4E8FF2172599ACFF00E7CA00 /* TestDemoViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -375,6 +398,9 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 5QVBCDQS87;
+				ENABLE_BITCODE = NO;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = iOS_Learning_Demo1/Demo_PrefixHeader.pch;
 				INFOPLIST_FILE = iOS_Learning_Demo1/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -395,6 +421,9 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 5QVBCDQS87;
+				ENABLE_BITCODE = NO;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = iOS_Learning_Demo1/Demo_PrefixHeader.pch;
 				INFOPLIST_FILE = iOS_Learning_Demo1/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = (

@@ -1,0 +1,22 @@
+//
+//  Demo_PrefixHeader.pch
+//  iOS_Learning_Demo1
+//
+//  Created by smwl on 2020/12/28.
+//
+
+#ifndef Demo_PrefixHeader_pch
+#define Demo_PrefixHeader_pch
+
+// Include any system framework and library headers here that should be included in all compilation units.
+// You will also need to set the Prefix Header build setting of one or more of your targets to reference this file.
+
+#import "AFHTTPRequestOperationManager+Util.h"
+
+
+#define CurrentHeight ([UIScreen mainScreen].bounds.size.height)
+#define CurrentWidth ([UIScreen mainScreen].bounds.size.width)
+
+#define TestLoginUrl @"http://172.15.23.168/iOS_Demo/login/loginData.json"
+
+#endif /* Demo_PrefixHeader_pch */

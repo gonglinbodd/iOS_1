@@ -1,23 +1,21 @@
 //
-//  ViewController.m
+//  TestDemoViewController.m
 //  iOS_Learning_Demo1
 //
 //  Created by smwl on 2020/12/28.
 //
 
-#import "ViewController.h"
+#import "TestDemoViewController.h"
 
-#define CurrentHeight ([UIScreen mainScreen].bounds.size.height)
-#define CurrentWidth ([UIScreen mainScreen].bounds.size.width)
-
-@interface ViewController ()
+@interface TestDemoViewController ()
 
 @end
 
-@implementation ViewController
+@implementation TestDemoViewController
 
 - (void)viewDidLoad {
     [super viewDidLoad];
+    // Do any additional setup after loading the view.
     
     [self addTestUI];
 }
@@ -32,7 +30,7 @@
      */
     UIButton * loginBtn = [[UIButton alloc] init];
     [loginBtn setTitle:@"Login" forState:UIControlStateNormal];
-    loginBtn.frame = CGRectMake((CurrentWidth - 200) / 2, 100, 200, 50);
+    loginBtn.frame = CGRectMake((CurrentWidth - 200) / 2, CurrentHeight - 200, 200, 50);
     loginBtn.backgroundColor = [UIColor blueColor];
     [loginBtn setTitleColor:[UIColor whiteColor] forState:UIControlStateNormal];
     loginBtn.layer.cornerRadius = 50 / 2;
@@ -42,7 +40,21 @@
 
 #pragma mark - Action
 -(void)loginBtnAction:(UIButton *)btn {
+    NSLog(@"Begin Login ...");
     
+    NSString * userName = @"iOS DEMO";
+    NSString * pwd = @"123456";
+    
+    NSDictionary * paramDict = @{
+        @"logindata"  :   userName,
+        @"loginpass"  :   pwd,
+    };
+    
+    [SMAFNHelper POST:TestLoginUrl parameters:paramDict success:^(id responseObject) {
+               
+    } failure:^(NSError *error) {
+        //
+    }];
 }
 
 @end
