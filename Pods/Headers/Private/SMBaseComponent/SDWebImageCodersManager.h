@@ -1,0 +1,1 @@
+../../../SMBaseComponent/Pods/SDWebImage/SDWebImage/SDWebImageCodersManager.h

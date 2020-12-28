@@ -1,0 +1,1 @@
+../../../SMBaseComponent/Pods/Masonry/Masonry/MASConstraint+Private.h

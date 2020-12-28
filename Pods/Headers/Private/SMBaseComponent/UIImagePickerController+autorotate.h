@@ -1,0 +1,1 @@
+../../../SMBaseComponent/SMBase/Categories/UIImagePickerController+autorotate.h

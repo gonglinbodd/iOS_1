@@ -1,0 +1,150 @@
+{
+  "name": "SMBaseComponent",
+  "version": "2.34.1",
+  "summary": "Base componnet for x7sy project",
+  "homepage": "https://www.x7sy.com",
+  "license": "SMWL",
+  "authors": "Xieqd",
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source": {
+    "git": "git@gitlab.14x.cn:x7/ios/iOS-SMBase.git",
+    "tag": "2.34.1"
+  },
+  "vendored_frameworks": [
+    "Products/SMBase.framework",
+    "Pods/NIMSDK_LITE/NIMSDK/NIMSDK.framework"
+  ],
+  "prefix_header_file": "SMBase/Supporting Files/SMBase.pch",
+  "resources": [
+    "Pods/MJRefresh/MJRefresh/MJRefresh.bundle",
+    "Pods/TZImagePickerController/TZImagePickerController/TZImagePickerController/TZImagePickerController.bundle",
+    "Pods/GPUImage/framework/Resources/*.jpg"
+  ],
+  "source_files": "SMBase/Supporting Files/**/*.{h,pch}",
+  "subspecs": [
+    {
+      "name": "Categories",
+      "source_files": "SMBase/Categories/**/*.h"
+    },
+    {
+      "name": "BaseUtils",
+      "source_files": "SMBase/BaseUtils/**/*.h"
+    },
+    {
+      "name": "BaseVC",
+      "source_files": "SMBase/BaseVC/**/*.h"
+    },
+    {
+      "name": "BaseView",
+      "source_files": "SMBase/BaseView/**/*.h"
+    },
+    {
+      "name": "SMBaseVendor",
+      "subspecs": [
+        {
+          "name": "UICKeyChainStore",
+          "source_files": "SMBase/SMBaseVendor/UICKeyChainStore/**/*.h"
+        },
+        {
+          "name": "GTMBase64",
+          "source_files": "SMBase/SMBaseVendor/GTMBase64/**/*.h"
+        },
+        {
+          "name": "FCUUID",
+          "source_files": "SMBase/SMBaseVendor/FCUUID/**/*.h"
+        },
+        {
+          "name": "HYBLoopScrollView",
+          "source_files": "SMBase/SMBaseVendor/HYBLoopScrollView/**/*.h"
+        },
+        {
+          "name": "RFJModel",
+          "source_files": "SMBase/SMBaseVendor/RFJModel/**/*.h"
+        },
+        {
+          "name": "UIImageView_PlayGIF",
+          "source_files": "SMBase/SMBaseVendor/UIImageView-PlayGIF/**/*.h"
+        }
+      ]
+    },
+    {
+      "name": "Pods",
+      "subspecs": [
+        {
+          "name": "GPUImage",
+          "source_files": "Pods/GPUImage/**/*.h"
+        },
+        {
+          "name": "AFNetworking",
+          "source_files": "Pods/AFNetworking/**/*.h"
+        },
+        {
+          "name": "SDWebImage",
+          "source_files": "Pods/SDWebImage/**/*.h"
+        },
+        {
+          "name": "Masonry",
+          "source_files": "Pods/Masonry/**/*.h"
+        },
+        {
+          "name": "MBProgressHUD",
+          "source_files": "Pods/MBProgressHUD/**/*.h"
+        },
+        {
+          "name": "OpenUDID",
+          "source_files": "Pods/OpenUDID/**/*.h"
+        },
+        {
+          "name": "HYBHelperKit",
+          "source_files": "Pods/HYBHelperKit/**/*.h"
+        },
+        {
+          "name": "SSKeychain",
+          "source_files": "Pods/SSKeychain/**/*.h"
+        },
+        {
+          "name": "MJRefresh",
+          "source_files": "Pods/MJRefresh/**/*.h"
+        },
+        {
+          "name": "UIAlertView_Blocks",
+          "source_files": "Pods/UIAlertView-Blocks/**/*.h"
+        },
+        {
+          "name": "TZImagePickerController",
+          "source_files": "Pods/TZImagePickerController/**/*.h"
+        },
+        {
+          "name": "YYKit",
+          "source_files": "Pods/YYKit/**/*.h"
+        },
+        {
+          "name": "GCDWebServer",
+          "source_files": "Pods/GCDWebServer/**/*.h"
+        },
+        {
+          "name": "NIMSDK_LITE",
+          "source_files": "Pods/NIMSDK_LITE/**/*.h"
+        },
+        {
+          "name": "Toast",
+          "source_files": "Pods/Toast/**/*.h"
+        },
+        {
+          "name": "M80AttributedLabel",
+          "source_files": "Pods/M80AttributedLabel/**/*.h"
+        },
+        {
+          "name": "lottie-ios",
+          "source_files": "Pods/lottie-ios/**/*.h"
+        },
+        {
+          "name": "MessageThrottle",
+          "source_files": "Pods/MessageThrottle/**/*.h"
+        }
+      ]
+    }
+  ]
+}

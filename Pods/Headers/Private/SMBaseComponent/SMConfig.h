@@ -1,0 +1,1 @@
+../../../SMBaseComponent/SMBase/BaseUtils/SMConfig.h

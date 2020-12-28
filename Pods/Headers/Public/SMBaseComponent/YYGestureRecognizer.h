@@ -1,0 +1,1 @@
+../../../SMBaseComponent/Pods/YYKit/YYKit/Utility/YYGestureRecognizer.h

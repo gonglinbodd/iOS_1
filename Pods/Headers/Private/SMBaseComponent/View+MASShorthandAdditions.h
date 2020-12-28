@@ -1,0 +1,1 @@
+../../../SMBaseComponent/Pods/Masonry/Masonry/View+MASShorthandAdditions.h

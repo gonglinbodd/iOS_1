@@ -1,0 +1,1 @@
+../../../SMBaseComponent/Pods/AFNetworking/AFNetworking/AFURLResponseSerialization.h

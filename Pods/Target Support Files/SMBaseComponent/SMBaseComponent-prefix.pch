@@ -1,0 +1,40 @@
+#ifdef __OBJC__
+#import <UIKit/UIKit.h>
+#else
+#ifndef FOUNDATION_EXPORT
+#if defined(__cplusplus)
+#define FOUNDATION_EXPORT extern "C"
+#else
+#define FOUNDATION_EXPORT extern
+#endif
+#endif
+#endif
+
+//
+//  SMBase.pch
+//  SMBase
+//
+//  Created by smwl on 2020/5/6.
+//  Copyright © 2020 smwl. All rights reserved.
+//
+
+#ifndef SMBase_pch
+#define SMBase_pch
+
+#import "SMBaseCommon.h"
+
+#import "UIColor+Util.h"
+#import "UIView+Extend.h"
+#import "UIImage+Extend.h"
+#import "UILabel+Util.h"
+#import "UIButton+Util.h"
+
+#import "Masonry.h"
+
+#import "SMUtils.h"
+#import "SMConfig.h"
+#import "SMMBprogressHUDHelper.h"
+#import "YYKit.h"
+
+
+#endif /* SMBase_pch */

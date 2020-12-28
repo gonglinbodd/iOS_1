@@ -7,13 +7,13 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		14B09C28BE045F77FE6ABE85 /* Pods_iOS_Learning_Demo1.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 74609C062F5A2B5D22752056 /* Pods_iOS_Learning_Demo1.framework */; };
 		4E8FF1F62599A68800E7CA00 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E8FF1F52599A68800E7CA00 /* AppDelegate.m */; };
 		4E8FF1FC2599A68800E7CA00 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E8FF1FB2599A68800E7CA00 /* ViewController.m */; };
 		4E8FF1FF2599A68800E7CA00 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4E8FF1FD2599A68800E7CA00 /* Main.storyboard */; };
 		4E8FF2012599A68A00E7CA00 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4E8FF2002599A68A00E7CA00 /* Assets.xcassets */; };
 		4E8FF2042599A68A00E7CA00 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4E8FF2022599A68A00E7CA00 /* LaunchScreen.storyboard */; };
 		4E8FF2072599A68A00E7CA00 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E8FF2062599A68A00E7CA00 /* main.m */; };
+		9A792703C9537BAC2E4AB8E5 /* libPods-iOS_Learning_Demo1.a in Frameworks */ = {isa = PBXBuildFile; fileRef = D3F1F037CDA0DDAEA90239A8 /* libPods-iOS_Learning_Demo1.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -27,8 +27,8 @@
 		4E8FF2032599A68A00E7CA00 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		4E8FF2052599A68A00E7CA00 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		4E8FF2062599A68A00E7CA00 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		74609C062F5A2B5D22752056 /* Pods_iOS_Learning_Demo1.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_iOS_Learning_Demo1.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		AF8BBF90C949EA0C3BAE0A9A /* Pods-iOS_Learning_Demo1.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iOS_Learning_Demo1.debug.xcconfig"; path = "Target Support Files/Pods-iOS_Learning_Demo1/Pods-iOS_Learning_Demo1.debug.xcconfig"; sourceTree = "<group>"; };
+		D3F1F037CDA0DDAEA90239A8 /* libPods-iOS_Learning_Demo1.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-iOS_Learning_Demo1.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		FBE5265EA0358ACEF230AEC6 /* Pods-iOS_Learning_Demo1.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iOS_Learning_Demo1.release.xcconfig"; path = "Target Support Files/Pods-iOS_Learning_Demo1/Pods-iOS_Learning_Demo1.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -37,7 +37,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				14B09C28BE045F77FE6ABE85 /* Pods_iOS_Learning_Demo1.framework in Frameworks */,
+				9A792703C9537BAC2E4AB8E5 /* libPods-iOS_Learning_Demo1.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -91,7 +91,7 @@
 		FF587D4F4EDF3FD8FABBF545 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				74609C062F5A2B5D22752056 /* Pods_iOS_Learning_Demo1.framework */,
+				D3F1F037CDA0DDAEA90239A8 /* libPods-iOS_Learning_Demo1.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -107,6 +107,8 @@
 				4E8FF1ED2599A68800E7CA00 /* Sources */,
 				4E8FF1EE2599A68800E7CA00 /* Frameworks */,
 				4E8FF1EF2599A68800E7CA00 /* Resources */,
+				59520F98E23D4B6D5EEAF020 /* [CP] Embed Pods Frameworks */,
+				23AC744B38927AF64AEC8F5A /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -162,6 +164,40 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
+		23AC744B38927AF64AEC8F5A /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-iOS_Learning_Demo1/Pods-iOS_Learning_Demo1-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-iOS_Learning_Demo1/Pods-iOS_Learning_Demo1-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-iOS_Learning_Demo1/Pods-iOS_Learning_Demo1-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		59520F98E23D4B6D5EEAF020 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-iOS_Learning_Demo1/Pods-iOS_Learning_Demo1-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-iOS_Learning_Demo1/Pods-iOS_Learning_Demo1-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-iOS_Learning_Demo1/Pods-iOS_Learning_Demo1-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
 		A4A03EB2BA7256D2E3BAB4DD /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;

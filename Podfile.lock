@@ -1,3 +1,82 @@
-PODFILE CHECKSUM: 2661aeaf6d6e04e7294df1ec583981975ea8e978
+PODS:
+  - SMBaseComponent (2.34.1):
+    - SMBaseComponent/BaseUtils (= 2.34.1)
+    - SMBaseComponent/BaseVC (= 2.34.1)
+    - SMBaseComponent/BaseView (= 2.34.1)
+    - SMBaseComponent/Categories (= 2.34.1)
+    - SMBaseComponent/Pods (= 2.34.1)
+    - SMBaseComponent/SMBaseVendor (= 2.34.1)
+  - SMBaseComponent/BaseUtils (2.34.1)
+  - SMBaseComponent/BaseVC (2.34.1)
+  - SMBaseComponent/BaseView (2.34.1)
+  - SMBaseComponent/Categories (2.34.1)
+  - SMBaseComponent/Pods (2.34.1):
+    - SMBaseComponent/Pods/AFNetworking (= 2.34.1)
+    - SMBaseComponent/Pods/GCDWebServer (= 2.34.1)
+    - SMBaseComponent/Pods/GPUImage (= 2.34.1)
+    - SMBaseComponent/Pods/HYBHelperKit (= 2.34.1)
+    - SMBaseComponent/Pods/lottie-ios (= 2.34.1)
+    - SMBaseComponent/Pods/M80AttributedLabel (= 2.34.1)
+    - SMBaseComponent/Pods/Masonry (= 2.34.1)
+    - SMBaseComponent/Pods/MBProgressHUD (= 2.34.1)
+    - SMBaseComponent/Pods/MessageThrottle (= 2.34.1)
+    - SMBaseComponent/Pods/MJRefresh (= 2.34.1)
+    - SMBaseComponent/Pods/NIMSDK_LITE (= 2.34.1)
+    - SMBaseComponent/Pods/OpenUDID (= 2.34.1)
+    - SMBaseComponent/Pods/SDWebImage (= 2.34.1)
+    - SMBaseComponent/Pods/SSKeychain (= 2.34.1)
+    - SMBaseComponent/Pods/Toast (= 2.34.1)
+    - SMBaseComponent/Pods/TZImagePickerController (= 2.34.1)
+    - SMBaseComponent/Pods/UIAlertView_Blocks (= 2.34.1)
+    - SMBaseComponent/Pods/YYKit (= 2.34.1)
+  - SMBaseComponent/Pods/AFNetworking (2.34.1)
+  - SMBaseComponent/Pods/GCDWebServer (2.34.1)
+  - SMBaseComponent/Pods/GPUImage (2.34.1)
+  - SMBaseComponent/Pods/HYBHelperKit (2.34.1)
+  - SMBaseComponent/Pods/lottie-ios (2.34.1)
+  - SMBaseComponent/Pods/M80AttributedLabel (2.34.1)
+  - SMBaseComponent/Pods/Masonry (2.34.1)
+  - SMBaseComponent/Pods/MBProgressHUD (2.34.1)
+  - SMBaseComponent/Pods/MessageThrottle (2.34.1)
+  - SMBaseComponent/Pods/MJRefresh (2.34.1)
+  - SMBaseComponent/Pods/NIMSDK_LITE (2.34.1)
+  - SMBaseComponent/Pods/OpenUDID (2.34.1)
+  - SMBaseComponent/Pods/SDWebImage (2.34.1)
+  - SMBaseComponent/Pods/SSKeychain (2.34.1)
+  - SMBaseComponent/Pods/Toast (2.34.1)
+  - SMBaseComponent/Pods/TZImagePickerController (2.34.1)
+  - SMBaseComponent/Pods/UIAlertView_Blocks (2.34.1)
+  - SMBaseComponent/Pods/YYKit (2.34.1)
+  - SMBaseComponent/SMBaseVendor (2.34.1):
+    - SMBaseComponent/SMBaseVendor/FCUUID (= 2.34.1)
+    - SMBaseComponent/SMBaseVendor/GTMBase64 (= 2.34.1)
+    - SMBaseComponent/SMBaseVendor/HYBLoopScrollView (= 2.34.1)
+    - SMBaseComponent/SMBaseVendor/RFJModel (= 2.34.1)
+    - SMBaseComponent/SMBaseVendor/UICKeyChainStore (= 2.34.1)
+    - SMBaseComponent/SMBaseVendor/UIImageView_PlayGIF (= 2.34.1)
+  - SMBaseComponent/SMBaseVendor/FCUUID (2.34.1)
+  - SMBaseComponent/SMBaseVendor/GTMBase64 (2.34.1)
+  - SMBaseComponent/SMBaseVendor/HYBLoopScrollView (2.34.1)
+  - SMBaseComponent/SMBaseVendor/RFJModel (2.34.1)
+  - SMBaseComponent/SMBaseVendor/UICKeyChainStore (2.34.1)
+  - SMBaseComponent/SMBaseVendor/UIImageView_PlayGIF (2.34.1)
+
+DEPENDENCIES:
+  - "SMBaseComponent (from `git@gitlab.14x.cn:x7/ios/iOS-SMBase.git`, tag `2.34.1`)"
+
+EXTERNAL SOURCES:
+  SMBaseComponent:
+    :git: "git@gitlab.14x.cn:x7/ios/iOS-SMBase.git"
+    :tag: 2.34.1
+
+CHECKOUT OPTIONS:
+  SMBaseComponent:
+    :git: "git@gitlab.14x.cn:x7/ios/iOS-SMBase.git"
+    :tag: 2.34.1
+
+SPEC CHECKSUMS:
+  SMBaseComponent: 06313c4382370c8ee13998e37e3080b215748bce
+
+PODFILE CHECKSUM: 46a6a0fdc3bf77163f000f37ed2a526d2c74b0b1
 
 COCOAPODS: 1.9.3

@@ -1,0 +1,1 @@
+../../../SMBaseComponent/Pods/AFNetworking/UIKit+AFNetworking/AFNetworkActivityIndicatorManager.h
