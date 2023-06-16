@@ -13,6 +13,9 @@ int main(int argc, char * argv[]) {
     @autoreleasepool {
         // Setup code that might create autoreleased objects goes here.
         appDelegateClassName = NSStringFromClass([AppDelegate class]);
+        
+        NSLog(@"%f",CurrentWidth);
+        NSLog(@"%f",CurrentHeight);
     }
     return UIApplicationMain(argc, argv, nil, appDelegateClassName);
 }
