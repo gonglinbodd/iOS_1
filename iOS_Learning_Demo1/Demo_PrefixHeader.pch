@@ -16,7 +16,6 @@
 
 #define CurrentHeight ([UIScreen mainScreen].bounds.size.height)
 #define CurrentWidth ([UIScreen mainScreen].bounds.size.width)
-
 #define TestLoginUrl @"http://172.15.23.168/iOS_Demo/login/loginData.json"
 
 #endif /* Demo_PrefixHeader_pch */

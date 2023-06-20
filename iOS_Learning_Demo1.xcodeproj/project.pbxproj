@@ -7,17 +7,46 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0004292B2A3FEF9F00414024 /* HomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0004292A2A3FEF9F00414024 /* HomeViewController.m */; };
+		0004292E2A3FF02500414024 /* UserLoginModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 0004292D2A3FF02500414024 /* UserLoginModel.m */; };
+		0004293B2A402DF900414024 /* UserInfViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0004293A2A402DF900414024 /* UserInfViewController.m */; };
 		007FC7D12A3B365100F638AD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4E8FF1FD2599A68800E7CA00 /* Main.storyboard */; };
+		0095DC6F2A40B3B0000DD549 /* myUserData in Resources */ = {isa = PBXBuildFile; fileRef = 0095DC6E2A40B3AF000DD549 /* myUserData */; };
+		0095DC7B2A412EC5000DD549 /* avatar09.png in Resources */ = {isa = PBXBuildFile; fileRef = 0095DC7A2A412EC5000DD549 /* avatar09.png */; };
+		0095DC7D2A412ED0000DD549 /* kuohao.png in Resources */ = {isa = PBXBuildFile; fileRef = 0095DC7C2A412ED0000DD549 /* kuohao.png */; };
+		0095DC842A412F36000DD549 /* bianji.png in Resources */ = {isa = PBXBuildFile; fileRef = 0095DC7E2A412F34000DD549 /* bianji.png */; };
+		0095DC852A412F36000DD549 /* yanjing-2.png in Resources */ = {isa = PBXBuildFile; fileRef = 0095DC7F2A412F34000DD549 /* yanjing-2.png */; };
+		0095DC862A412F36000DD549 /* yanjing.png in Resources */ = {isa = PBXBuildFile; fileRef = 0095DC802A412F35000DD549 /* yanjing.png */; };
+		0095DC872A412F36000DD549 /* return.png in Resources */ = {isa = PBXBuildFile; fileRef = 0095DC812A412F35000DD549 /* return.png */; };
+		0095DC882A412F36000DD549 /* xiaoxi.png in Resources */ = {isa = PBXBuildFile; fileRef = 0095DC822A412F36000DD549 /* xiaoxi.png */; };
+		0095DC892A412F36000DD549 /* shouji.png in Resources */ = {isa = PBXBuildFile; fileRef = 0095DC832A412F36000DD549 /* shouji.png */; };
+		00CCBCAC2A3C69E400CCCA82 /* libSMBaseComponent.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 00CCBCAB2A3C69E400CCCA82 /* libSMBaseComponent.a */; };
 		4E8FF1F62599A68800E7CA00 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E8FF1F52599A68800E7CA00 /* AppDelegate.m */; };
 		4E8FF2012599A68A00E7CA00 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4E8FF2002599A68A00E7CA00 /* Assets.xcassets */; };
 		4E8FF2042599A68A00E7CA00 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4E8FF2022599A68A00E7CA00 /* LaunchScreen.storyboard */; };
 		4E8FF2072599A68A00E7CA00 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E8FF2062599A68A00E7CA00 /* main.m */; };
-		4E8FF2172599ACFF00E7CA00 /* TestDemoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E8FF2162599ACFF00E7CA00 /* TestDemoViewController.m */; };
+		4E8FF2172599ACFF00E7CA00 /* LoginDemoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E8FF2162599ACFF00E7CA00 /* LoginDemoViewController.m */; };
 		4E8FF2202599AE2300E7CA00 /* AFHTTPRequestOperationManager+Util.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E8FF21F2599AE2300E7CA00 /* AFHTTPRequestOperationManager+Util.m */; };
 		9A792703C9537BAC2E4AB8E5 /* libPods-iOS_Learning_Demo1.a in Frameworks */ = {isa = PBXBuildFile; fileRef = D3F1F037CDA0DDAEA90239A8 /* libPods-iOS_Learning_Demo1.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		000429292A3FEF9F00414024 /* HomeViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HomeViewController.h; sourceTree = "<group>"; };
+		0004292A2A3FEF9F00414024 /* HomeViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HomeViewController.m; sourceTree = "<group>"; };
+		0004292C2A3FF02500414024 /* UserLoginModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = UserLoginModel.h; sourceTree = "<group>"; };
+		0004292D2A3FF02500414024 /* UserLoginModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = UserLoginModel.m; sourceTree = "<group>"; };
+		000429392A402DF900414024 /* UserInfViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = UserInfViewController.h; sourceTree = "<group>"; };
+		0004293A2A402DF900414024 /* UserInfViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = UserInfViewController.m; sourceTree = "<group>"; };
+		0095DC6E2A40B3AF000DD549 /* myUserData */ = {isa = PBXFileReference; lastKnownFileType = folder; name = myUserData; path = ../../../Library/myUserData; sourceTree = "<group>"; };
+		0095DC7A2A412EC5000DD549 /* avatar09.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = avatar09.png; path = ../../../Downloads/avatar09.png; sourceTree = "<group>"; };
+		0095DC7C2A412ED0000DD549 /* kuohao.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = kuohao.png; path = ../../../Downloads/kuohao.png; sourceTree = "<group>"; };
+		0095DC7E2A412F34000DD549 /* bianji.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = bianji.png; path = ../../../Downloads/bianji.png; sourceTree = "<group>"; };
+		0095DC7F2A412F34000DD549 /* yanjing-2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "yanjing-2.png"; path = "../../../Downloads/yanjing-2.png"; sourceTree = "<group>"; };
+		0095DC802A412F35000DD549 /* yanjing.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = yanjing.png; path = ../../../Downloads/yanjing.png; sourceTree = "<group>"; };
+		0095DC812A412F35000DD549 /* return.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = return.png; path = ../../../Downloads/return.png; sourceTree = "<group>"; };
+		0095DC822A412F36000DD549 /* xiaoxi.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = xiaoxi.png; path = ../../../Downloads/xiaoxi.png; sourceTree = "<group>"; };
+		0095DC832A412F36000DD549 /* shouji.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = shouji.png; path = ../../../Downloads/shouji.png; sourceTree = "<group>"; };
+		00CCBCAB2A3C69E400CCCA82 /* libSMBaseComponent.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libSMBaseComponent.a; sourceTree = SOURCE_ROOT; };
 		4E8FF1F12599A68800E7CA00 /* iOS_Learning_Demo1.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iOS_Learning_Demo1.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4E8FF1F42599A68800E7CA00 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		4E8FF1F52599A68800E7CA00 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -26,8 +55,8 @@
 		4E8FF2032599A68A00E7CA00 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		4E8FF2052599A68A00E7CA00 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		4E8FF2062599A68A00E7CA00 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		4E8FF2152599ACFF00E7CA00 /* TestDemoViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TestDemoViewController.h; sourceTree = "<group>"; };
-		4E8FF2162599ACFF00E7CA00 /* TestDemoViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TestDemoViewController.m; sourceTree = "<group>"; };
+		4E8FF2152599ACFF00E7CA00 /* LoginDemoViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LoginDemoViewController.h; sourceTree = "<group>"; };
+		4E8FF2162599ACFF00E7CA00 /* LoginDemoViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LoginDemoViewController.m; sourceTree = "<group>"; };
 		4E8FF21E2599AE2300E7CA00 /* AFHTTPRequestOperationManager+Util.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "AFHTTPRequestOperationManager+Util.h"; sourceTree = "<group>"; };
 		4E8FF21F2599AE2300E7CA00 /* AFHTTPRequestOperationManager+Util.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "AFHTTPRequestOperationManager+Util.m"; sourceTree = "<group>"; };
 		4E8FF2252599AF0700E7CA00 /* Demo_PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Demo_PrefixHeader.pch; sourceTree = "<group>"; };
@@ -41,6 +70,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				00CCBCAC2A3C69E400CCCA82 /* libSMBaseComponent.a in Frameworks */,
 				9A792703C9537BAC2E4AB8E5 /* libPods-iOS_Learning_Demo1.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -51,6 +81,16 @@
 		4E8FF1E82599A68800E7CA00 = {
 			isa = PBXGroup;
 			children = (
+				0095DC7A2A412EC5000DD549 /* avatar09.png */,
+				0095DC7E2A412F34000DD549 /* bianji.png */,
+				0095DC7C2A412ED0000DD549 /* kuohao.png */,
+				0095DC812A412F35000DD549 /* return.png */,
+				0095DC832A412F36000DD549 /* shouji.png */,
+				0095DC822A412F36000DD549 /* xiaoxi.png */,
+				0095DC7F2A412F34000DD549 /* yanjing-2.png */,
+				0095DC802A412F35000DD549 /* yanjing.png */,
+				00CCBCAB2A3C69E400CCCA82 /* libSMBaseComponent.a */,
+				0095DC6E2A40B3AF000DD549 /* myUserData */,
 				4E8FF1F32599A68800E7CA00 /* iOS_Learning_Demo1 */,
 				4E8FF1F22599A68800E7CA00 /* Products */,
 				D2BBDB4799BC76E8C7F098F7 /* Pods */,
@@ -69,11 +109,17 @@
 		4E8FF1F32599A68800E7CA00 /* iOS_Learning_Demo1 */ = {
 			isa = PBXGroup;
 			children = (
+				4E8FF2252599AF0700E7CA00 /* Demo_PrefixHeader.pch */,
 				4E8FF2232599AEB900E7CA00 /* Network */,
 				4E8FF2222599AE9C00E7CA00 /* Login */,
 				4E8FF1F42599A68800E7CA00 /* AppDelegate.h */,
 				4E8FF1F52599A68800E7CA00 /* AppDelegate.m */,
-				4E8FF2252599AF0700E7CA00 /* Demo_PrefixHeader.pch */,
+				000429292A3FEF9F00414024 /* HomeViewController.h */,
+				0004292A2A3FEF9F00414024 /* HomeViewController.m */,
+				000429392A402DF900414024 /* UserInfViewController.h */,
+				0004293A2A402DF900414024 /* UserInfViewController.m */,
+				0004292C2A3FF02500414024 /* UserLoginModel.h */,
+				0004292D2A3FF02500414024 /* UserLoginModel.m */,
 				4E8FF1FD2599A68800E7CA00 /* Main.storyboard */,
 				4E8FF2002599A68A00E7CA00 /* Assets.xcassets */,
 				4E8FF2022599A68A00E7CA00 /* LaunchScreen.storyboard */,
@@ -86,8 +132,8 @@
 		4E8FF2222599AE9C00E7CA00 /* Login */ = {
 			isa = PBXGroup;
 			children = (
-				4E8FF2152599ACFF00E7CA00 /* TestDemoViewController.h */,
-				4E8FF2162599ACFF00E7CA00 /* TestDemoViewController.m */,
+				4E8FF2152599ACFF00E7CA00 /* LoginDemoViewController.h */,
+				4E8FF2162599ACFF00E7CA00 /* LoginDemoViewController.m */,
 			);
 			path = Login;
 			sourceTree = "<group>";
@@ -178,8 +224,17 @@
 			buildActionMask = 2147483647;
 			files = (
 				007FC7D12A3B365100F638AD /* Main.storyboard in Resources */,
+				0095DC6F2A40B3B0000DD549 /* myUserData in Resources */,
+				0095DC7D2A412ED0000DD549 /* kuohao.png in Resources */,
 				4E8FF2042599A68A00E7CA00 /* LaunchScreen.storyboard in Resources */,
+				0095DC882A412F36000DD549 /* xiaoxi.png in Resources */,
+				0095DC7B2A412EC5000DD549 /* avatar09.png in Resources */,
+				0095DC842A412F36000DD549 /* bianji.png in Resources */,
+				0095DC862A412F36000DD549 /* yanjing.png in Resources */,
 				4E8FF2012599A68A00E7CA00 /* Assets.xcassets in Resources */,
+				0095DC852A412F36000DD549 /* yanjing-2.png in Resources */,
+				0095DC872A412F36000DD549 /* return.png in Resources */,
+				0095DC892A412F36000DD549 /* shouji.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -251,8 +306,11 @@
 			files = (
 				4E8FF2202599AE2300E7CA00 /* AFHTTPRequestOperationManager+Util.m in Sources */,
 				4E8FF1F62599A68800E7CA00 /* AppDelegate.m in Sources */,
+				0004293B2A402DF900414024 /* UserInfViewController.m in Sources */,
+				0004292E2A3FF02500414024 /* UserLoginModel.m in Sources */,
 				4E8FF2072599A68A00E7CA00 /* main.m in Sources */,
-				4E8FF2172599ACFF00E7CA00 /* TestDemoViewController.m in Sources */,
+				0004292B2A3FEF9F00414024 /* HomeViewController.m in Sources */,
+				4E8FF2172599ACFF00E7CA00 /* LoginDemoViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -332,6 +390,7 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
+				NEW_SETTING = "";
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
 			};
@@ -385,6 +444,7 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
+				NEW_SETTING = "";
 				SDKROOT = iphoneos;
 				VALIDATE_PRODUCT = YES;
 			};
@@ -406,6 +466,10 @@
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
+				);
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/build/Debug-iphonesimulator/SMBaseComponent",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "smwl.iOS-Learning-Demo1";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -429,6 +493,10 @@
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
+				);
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/build/Debug-iphonesimulator/SMBaseComponent",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "smwl.iOS-Learning-Demo1";
 				PRODUCT_NAME = "$(TARGET_NAME)";

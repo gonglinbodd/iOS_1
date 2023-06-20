@@ -6,7 +6,7 @@
 //
 
 #import "AppDelegate.h"
-#import "TestDemoViewController.h"
+#import "LoginDemoViewController.h"
 
 @interface AppDelegate ()
 
@@ -23,9 +23,11 @@
 }
 
 -(void)initWindow {
-    TestDemoViewController * vc = [[TestDemoViewController alloc] init];
+    
+    LoginDemoViewController * vc = [[LoginDemoViewController alloc] init];
     UINavigationController * nav = [[UINavigationController alloc] initWithRootViewController:vc];
     self.window.rootViewController = nav;
+    
 }
 
 
